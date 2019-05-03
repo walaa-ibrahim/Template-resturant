@@ -1,0 +1,21 @@
+workshop website url:
+
+http://bootstraplovers.com/assan-kit-3.8/bootstrap4/website-templates/classic-template/html/classic-onepage-restaurant.html#services
+
+
+owl URL:
+
+
+https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html
+
+
+fancybox URL:
+
+https://github.com/fancyapps/fancybox
+
+
+skitter URL:
+
+https://skitter-slider.net/install.html
+
+

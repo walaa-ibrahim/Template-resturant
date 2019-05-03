@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Required css files-->
+    <!--bootstrap & fontawesome files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/fontawesome-all.min.css"/>
+    <!--fonts we are used-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <!-- websites plugin css -->
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/skitter.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <!-- Main css file -->   
+    <link rel="stylesheet" href="css/index.css"/>
+    </head>
+    
+<body>
+    <!-- Header Section -->
+    <section class="header">
+        <div class="container">
+            <!-- top-bar--> 
+            <div class="top-bar">
+                <div class="text-right">
+                    <a href="#" class="social-media media-fac d-inline-block">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-media media-twt d-inline-block">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-media media-insta d-inline-block">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-media media-link d-inline-block">
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Navbar & Brand-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!--slogan of website-->
+                <a class="navbar-brand" href="#"><img src="images/logo-light.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--navbar-item links-->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" data-scroll="home" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="about" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="ourFood" href="#">our food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="service" href="#">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="menue" href="#">menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="chef" href="#">chefs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="gallery" href="#">gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="contact" href="#">contact</a>
+                        </li>
+                    </ul>
+                     <button class="btn btn-style btn-md-block text-uppercase">book a table</button>
+                </div>
+            </div>
+        </nav>
+        <!--fixed nav-->
+        <nav id="bgFade" class="navbar py-3 navbar-expand-lg navbar-light">
+            <div class="container">
+                <!--slogan of website-->
+                <a class="navbar-brand" href="#"><img src="images/logo-light.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--navbar-item links-->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" data-scroll="home" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="about" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="ourFood" href="#">our food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="service" href="#">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="menue" href="#">menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="chef" href="#">chefs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="gallery" href="#">gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="contact" href="#">contact</a>
+                        </li>
+                    </ul>
+                     <button class="btn btn-style btn-md-block text-uppercase">book a table</button>
+                </div>
+            </div>
+        </nav> 
+    </section>
+    <!--top slider section-->
+    <section id="home" class="slider mb-5">
+        <!--skitter slider-->
+        <div class="skitter skitter-large">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="images/images.jpg" />
+                    </a>
+                    <div class="label_text">
+                        <div class="container">
+                            <h2 class="text-capitalize">assan resturant</h2>
+                            <p>
+                               The best food in town at one of the best locations.
+                            </p>
+                            <a href="#book a table" class="btn btn-xs btn-danger text-uppercase">book a table</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/bg2.jpg" />
+                    </a>
+                    <div class="label_text">
+                        <div class="container text-center">
+                            <h2 class="text-capitalize">assan resturant</h2>
+                            <p>
+                               The best food in town at one of the best locations.
+                            </p>
+                            <a href="#book a table" class="btn btn-xs btn-danger text-uppercase">book a table</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/bg3.jpg" />
+                    </a>
+                    <div class="label_text">
+                        <div class="container text-center">
+                            <h2 class="text-capitalize"># top chifs team</h2>
+                            <p>
+                               The best food in town at one of the best locations.
+                            </p>
+                            <a href="book a table" class="btn btn-xs btn-danger text-uppercase">book a table</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- About section-->
+	<section id="about" class="about my-5">
+        <div class="container">
+             <div class="row my-5">
+                <div class="col-lg-6">
+                    <div class="about-cont pt-5">
+                        <h2 class="py-3 mt-lg-2">Our History</h2>
+                        <p class="py-2 p-common"> In volutpat vehicula iaculis. Nullam dapibus velit vel suscipit malesuada. Morbi tincidunt, dui tristique tincidunt faucibus, purus sapien consectetur libero, vitae venenatis eros lacus vitae erat. Mauris tristique pretium tristique. Integer at nulla at eros suscipit suscipit vitae nec diam. Nullam dictum sed metus nec mollis. </p>
+                        <p class="p-common"> In volutpat vehicula iaculis. Nullam dapibus velit vel suscipit malesuada. Morbi tincidunt, dui tristique tincidunt faucibus, purus sapien consectetur libero, vitae venenatis eros lacus vitae erat. Mauris tristique pretium tristique. Integer at nulla at eros suscipit suscipit vitae nec diam. Nullam dictum sed metus nec mollis. </p>
+                        <button class="btn btn-dark text-uppercase mt-4">read more</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/about.png">
+                </div>
+            </div>
+        </div>   
+    </section>	
+    <!-- our-food Section -->
+    <section id="ourFood" class="our-food">
+        <!-- offers Section -->
+        <div class="offers mt-5 py-5">
+            <div class="container">
+                <!-- offers-header Section -->
+                <div class="py-4 mb-3 text-center offers-header">
+                    <h2 class="text-capitalize mt-4">seasonal offers</h2>
+                    <p class="pb-2 p-common text-center">Checkout the latest offers in menu</p>
+                </div>
+                <!-- owl-carousel Section -->
+                <div class="row">
+                    <div class="owl-carousel mb-md-5">
+                        <div>
+                            <!-- owl-link -->
+                            <a class="owl-link text-decoration-none" href="#">
+                                <img class="img-fluid mb-3" src="images/food1.jpg" alt="food-photo">
+                                <h4 class="d-inline-block">Red</h4>
+                                <span class="float-right">$14</span>
+                            </a>
+                        </div>
+                        <div>
+                            <!-- owl-link -->
+                            <a class="owl-link text-decoration-none" href="#">
+                                <img class="img-fluid mb-3" src="images/food2.jpg" alt="food-photo">
+                                <h4 class="d-inline-block">Pizaa</h4>
+                                <span class="float-right">$5</span>
+                            </a> 
+                        </div>
+                        <div>
+                            <!-- owl-link -->
+                            <a class="owl-link text-decoration-none" href="#">
+                                <img class="img-fluid mb-3" src="images/food3.jpg" alt="food-photo">
+                                <h4 class="d-inline-block">Pizaa roll</h4>
+                                <span class="float-right">$9</span>
+                            </a>
+                        </div>
+                        <div>
+                            <!-- owl-link -->
+                            <a class="owl-link text-decoration-none" href="#">
+                                <img class="img-fluid mb-3" src="images/food4.jpg" alt="food-photo">
+                                <h4 class="d-inline-block">Pure veg</h4>
+                                <span class="float-right">$13</span>
+                            </a> 
+                        </div>
+                        <div>
+                            <!-- owl-link -->
+                            <a class="owl-link text-decoration-none" href="#">
+                                <img class="img-fluid mb-3" src="images/food5.jpg" alt="food-photo">
+                                <h4 class="d-inline-block">Salad</h4>
+                                <span class="float-right">$11</span>
+                            </a> 
+                        </div>
+                        <div>
+                            <!-- owl-link -->
+                            <a class="owl-link text-decoration-none" href="#">
+                                <img class="img-fluid mb-3" src="images/food6.jpg" alt="food-photo">
+                                <h4 class="d-inline-block">Soft drink</h4>
+                                <span class="float-right">$9</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- why-choosen -->
+        <div id="service" class="why-choosen">
+            <div class="row">
+                <div class="choose col-md-6">
+                    <img class="img-fluid d-md-none" src="images/chef-l1.jpg">
+                </div>
+                <div class="col-md-5">
+                    <div class="choosen px-5 mx-md-4 my-5">
+                        <h2 class="pt-md-5 pb-4"> Whay choose assan restaurant? </h2>
+                        <p class="pr-5 p-common"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p class="pr-5 mb-5 p-common"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <button class="btn btn-outline-danger text-uppercase">explore menue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonials -->
+        <div class="testimonials py-4">
+            <div class="container">
+                <!-- testimonials title -->
+                <div class="test-content text-center py-5 mb-5">
+                    <h2 class="text-capitalizemt-5 pt-2">what they say about us?</h2>
+                    <p class="p-common">Real customer reviews</p>
+                </div>
+                <div class="test text-center col-md-9 m-auto">
+                    <!-- test carousel -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>" Excellent place to start! Loved how easy it was to move right in with my content... "</p>
+                                <h4>John Doe-</h4>
+                            </div>
+                            <div class="carousel-item">
+                                <p>" Hi mate, thank you for your wonderful template! As a backend web developer, this makes it super easy for me to build a new web application. "</p>
+                                <h4>John Doe-</h4>
+                            </div>
+                            <div class="carousel-item">
+                                <p>" Hello, your theme gets better and better on every version. Gratulation to this wonderful theme and please keep on working this way (good once)!! " </p>
+                                <h4>John Doe-</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section class="services py-5">
+        <div class="container">
+            <!-- services title -->
+            <div class="title-serv text-center">
+                <h2 class="text-capitalize pt-2 mt-5">Why choose us?</h2>
+                <p class="p-common">Our services</p>
+            </div>
+            <div class="row my-5 text-center">
+                <div class="col-md-4">
+                    <img src="images/vector1.png" alt="vector-photo">
+                    <h5 class="py-2">Award winners</h5>
+                    <p class="card-text"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/vector2.png" alt="vector-photo">
+                    <h5 class="py-2">Catering</h5>
+                    <p class="card-text"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/vector3.png" alt="vector-photo">
+                    <h5 class="py-2">Best chefs</h5>
+                    <p class="card-text"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/vector4.png" alt="vector-photo">
+                    <h5 class="py-2">Music events</h5>
+                    <p class="card-text"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/vector5.png" alt="vector-photo">
+                    <h5 class="py-2">Game zone</h5>
+                    <p class="card-text"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/vector6.png" alt="vector-photo">
+                    <h5 class="py-2">Event managament</h5>
+                    <p class="card-text"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!-- menue section -->
+    <section id="menue" class="menue py-5">
+        <div class="container">
+            <!-- menue title -->
+            <div class="title-menue text-center">
+                <h2 class="text-capitalize mt-5">Our food menu</h2>
+                <p class="p-common">Best chefs team serve better to our valuable customers</p>
+            </div>
+            <div class="menue-item mb-5 pb-4 px-4">
+                <!-- menue content -->
+                <ul class="nav my-4 mx-auto justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Breakfast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Lunch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Dinner</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row">
+                            <!--left side menue-->
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food1.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food2.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food3.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class=" menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food4.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food5.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--right side menue-->
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food6.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food7.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food8.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food9.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food10.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row">
+                            <!--left side menue-->
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food10.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food9.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food8.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class=" menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food7.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food6.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--right side menue-->
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food5.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food4.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food3.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food2.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food1.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row">
+                            <!--left side menue-->
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food1.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food2.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food3.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class=" menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food4.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food5.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--right side menue-->
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food6.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food7.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3"><a href=""><img class="img-fluid" src="images/food8.jpg"></a></div>
+                                    <div class="col-md-9 mb-3">
+                                        <div class="menue-price clearfix">
+                                            <h5 class="float-left">Menu title</h5>
+                                            <span class="float-right">$1.20</span>
+                                        </div>
+                                        <p class="p-common">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- chefs section -->
+    <section id="chef" class="chefs py-4">
+        <div class="container">
+            <!-- chefs team title -->
+            <div class="chefs-team text-center mb-5">
+                <h2 class="text-capitalize pt-3 mt-5">Our master chefs</h2>
+                <p class="p-common">Best chefs team serve better to our valuable customers</p>
+            </div>
+            <div class="row mt-5 pt-5">
+                <!-- chefs team -->
+                <div class="col-md-4">
+                    <a class="chef-item" href="">
+                        <img src="images/chef1.jpg" class="img-fluid" alt="chef1">
+                        <div class="chef-overlay">
+                            <h4>Janelia Adams</h4>
+                            <span>Chef's leader</span>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-md-4">
+                    <a class="chef-item" href="">
+                        <img src="images/chef2.jpg" class="img-fluid" alt="chef1">
+                        <div class="chef-overlay">
+                            <h4>Janelia Adams</h4>
+                            <span>Chef's leader</span>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-md-4">
+                    <a class="chef-item" href="">
+                        <img src="images/chef3.jpg" class="img-fluid" alt="chef1">
+                        <div class="chef-overlay">
+                            <h4>Janelia Adams</h4>
+                            <span>Chef's leader</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery py-5">
+        <div class="container">
+            <!-- gallery title -->
+            <div class="gallery-title text-center">
+                <h2 class="text-capitalize mt-2 pt-5">Instagram Gallery 
+                <sub class="px-1 text-center"><i class="fas fa-thumbs-up"></i> 40.4K</sub></h2>
+                <p class="p-common">Best chefs team serve better to our valuable customers</p>
+            </div>
+            <!-- gallery photo -->
+            <div class="row mt-5 pt-4">
+               <div class="col-md pb-md-2 col-sm-6">
+                    <a data-fancybox="gallery" href="images/food1.jpg">
+                        <img src="images/food1.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md pb-md-2 col-sm-6">
+                    <a data-fancybox="gallery" href="images/food2.jpg">
+                        <img src="images/food2.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md pb-md-2 col-sm-6">
+                    <a data-fancybox="gallery" href="images/food3.jpg">
+                        <img src="images/food3.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md pb-md-2 col-sm-6">
+                    <a data-fancybox="gallery" href="images/food4.jpg">
+                        <img src="images/food4.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md pb-md-2 col-sm-12">
+                    <a data-fancybox="gallery" href="images/food5.jpg">
+                        <img src="images/food5.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md col-sm-6">
+                    <a data-fancybox="gallery" href="images/food6.jpg">
+                        <img src="images/food6.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md col-sm-6">
+                    <a data-fancybox="gallery" href="images/food7.jpg">
+                        <img src="images/food7.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md col-sm-6">
+                    <a data-fancybox="gallery" href="images/food8.jpg">
+                        <img src="images/food8.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md col-sm-6">
+                    <a data-fancybox="gallery" href="images/food9.jpg">
+                        <img src="images/food9.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+                <div class="col-md col-sm-12">
+                    <a data-fancybox="gallery" href="images/food10.jpg">
+                        <img src="images/food10.jpg" class="img-fluid" alt="food">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/logo.png" class="img-fluid mb-md-4">
+                    <p class="p-common pr-4"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Opening Time</h4>
+                    <ul class="list-unstyled">
+                        <li class="clearfix p-common">
+                            <span class="day">Monday</span>
+                            <span class="time float-right">9:AM - 10PM</span>
+                        </li>
+                        <li class="clearfix p-common">
+                            <span class="day">Tuesday</span>
+                            <span class="time float-right">9:AM - 10PM</span>
+                        </li>
+                        <li class="clearfix p-common">
+                            <span class="day">Wednesday</span>
+                            <span class="time float-right">9:AM - 10PM</span>
+                        </li>
+                        <li class="clearfix p-common">
+                            <span class="day">Thursday</span>
+                            <span class="time float-right">9:AM - 10PM</span>
+                        </li>
+                        <li class="clearfix p-common">
+                            <span class="day">Friday</span>
+                            <span class="time float-right">9:AM - 10PM</span>
+                        </li>
+                        <li class="clearfix p-common">
+                            <span class="day"> Saturday - Sunday </span>
+                            <span class="time float-right"> 11:AM - 12PM </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow us</h4>
+                        <div class="text-left mb-4">
+                            <a href="#" class="social-media media-fac d-inline-block">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-media media-twt d-inline-block">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-media media-insta d-inline-block">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-media media-link d-inline-block">
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    <!--end social media-->
+                    <span class="p-common"> Support </span>
+                    <p class="p-str">support@domain.com</p>
+                    <span class="p-common"> Phone </span>
+                    <p class="p-str">1800 394 4933</p>
+                    <p class="p-common"> &copy; Copyright 2019. All Right Reserved. </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <!-- scroll-to-top -->
+    <a class="scroll-to-top text-center" href="#">
+        <i class="fas fa-chevron-up fa-lg aria-hidden"></i>
+    </a>
+    <!-- Reqired js files-->
+    <!-- Jquery & bootstrap files -->
+  	<script src="js/jquery-3.3.1.min.js"></script>    
+    <script src="js/popper.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <!-- websites plugins js -->
+    <script src="js/jquery.skitter.min.js"></script> 
+    <script src="js/wow.min.js"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script> 
+    <script src="js/jquery.fancybox.js"></script>
+    <!-- Main js file -->
+    <script src="js/mine.js"></script>
+
+        
+</body>
+</html>
